@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Electricity Bill Splitter - Data</title>
+</head>
+<body>
+  <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Electricity Bill Splitter</a>
+      <div>
+        <a href="index.html" class="me-3">Home</a>
+        <a href="data.html" class="me-3">Data</a>
+        <a href="settings.html">Settings</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <h2 class="mb-4">Saved Bill Data</h2>
+    <table class="table table-striped" id="dataTable">
+      <thead>
+        <tr>
+          <th>Month</th>
+          <th>User 1 (₹)</th>
+          <th>User 2 (₹)</th>
+          <th>User 3 (₹)</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="dataBody"></tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
